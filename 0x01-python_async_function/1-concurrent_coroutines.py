@@ -10,7 +10,9 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
-    # Concurrent function example
+    """
+    Concurrent function example
+    """
     delays: List[float] = []
     tasks = []
 
